@@ -12,50 +12,35 @@ A sleek, **WhatsApp-style** web interface powered by the **Google Gemini API**. 
 * **WhatsApp UI/UX**: Includes a header with status indicators, chat bubbles with timestamps, and a responsive sidebar.
 * **Gemini Integration**: Powered by the Google Generative AI SDK using the `gemini-2.5-flash` model.
 * **Multimodal Support**: Capability to upload and process images, videos, and documents.
-* **Persistent History**: Chat history (text-only) is saved to `localStorage`, allowing conversations to persist after page reloads.
-* **Customization Engine**:
-    * **Theme Toggle**: Support for both Light and Dark modes.
-    * **AI Identity**: Users can change the AI's display name and profile picture URL.
-    * **Custom System Instructions**: Option to set a "Custom Prompt" to change how the AI behaves.
-* **Chat Management**: Features to download the chat history as a `.txt` file or clear the entire history.
-* **Message Actions**: Long-press or right-click messages to copy text or remove specific bubbles from the view.
+* **Persistent History**: Chat history (text-only) is saved to `localStorage`.
+* **Customization**: Support for Light/Dark modes, custom AI names, and custom system prompts.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Deployment (GitHub Pages)
 
-### 1. Prerequisites
-You will need a Google Gemini API Key from Google AI Studio.
+To host this for free on GitHub Pages:
 
-### 2. Setup
-1.  Clone this repository or download the source files.
-2.  Open `script.js`.
-3.  Locate the `API_KEY` constant and replace the placeholder with your actual key:
-    ```javascript
-    const API_KEY = "YOUR_API_KEY_HERE";
-    ```
-4.  Open `index.html` in your browser.
+1. **Get an API Key**: Obtain a key from [Google AI Studio](https://aistudio.google.com/).
+2. **Configure Security**: 
+   - Go to [Google Cloud Console](https://console.cloud.google.com/).
+   - Navigate to **APIs & Services > Credentials**.
+   - Edit your API Key and under **Website restrictions**, add your GitHub URL: `https://yourusername.github.io/*`.
+3. **Insert Key**: In `script.js`, replace the `API_KEY` value with your restricted key.
+4. **Push to GitHub**: Upload your files to a repository and enable **Pages** in the repository settings.
 
 ---
 
-## 🛠️ Built With
+## 📜 License & Credit
 
-* **HTML5/CSS3**: Custom CSS variables for dynamic theming.
-* **Vanilla JavaScript**: Modular JS using `importmap` for the Google AI SDK.
-* **Google Generative AI**: The core intelligence for the chatbot.
-* **Font Awesome**: High-quality icons for the interface.
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+**Requirements for Use:**
+* **Attribution**: You must keep the original copyright notice and credit to **Dextrecs** in the source files.
+* **Open Source**: If you modify or distribute this code, your version must also be released as open source under the same license.
 
 ---
-
-## 📜 License
-
-This project is licensed under the **GNU General Public License v3.0**.
 
 ## 🤝 Credits
 
 Developed by **[Dextrecs](https://dextrecs.github.io/Dextrecs)**.
-
----
-
-### ⚠️ Storage Notice
-As noted in the application, images and videos are processed by the AI but are **not saved** to the local chat history to conserve browser storage space.
