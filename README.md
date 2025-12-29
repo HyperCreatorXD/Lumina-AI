@@ -44,3 +44,5 @@ This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**
 ## 🤝 Credits
 
 Developed by **[Dextrecs](https://dextrecs.github.io/Dextrecs)**.
+
+Forked by **HyperCreatorXD**.
