@@ -6,7 +6,7 @@
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const API_KEY = "YOUR_API_KEY_HERE"; 
+const API_KEY = "AIzaSyDCA7MAp30kcox7GcgGdo6KNAydJtWu66o"; 
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 const chatBox = document.getElementById("chat-box");
