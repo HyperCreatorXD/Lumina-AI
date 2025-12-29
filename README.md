@@ -17,18 +17,7 @@ A sleek, **WhatsApp-style** web interface powered by the **Google Gemini API**. 
 
 ---
 
-## 🚀 Deployment (GitHub Pages)
-
-To host this for free on GitHub Pages:
-
-1. **Get an API Key**: Obtain a key from [Google AI Studio](https://aistudio.google.com/).
-2. **Configure Security**: 
-   - Go to [Google Cloud Console](https://console.cloud.google.com/).
-   - Navigate to **APIs & Services > Credentials**.
-   - Edit your API Key and under **Website restrictions**, add your GitHub URL: `https://yourusername.github.io/*`.
-3. **Insert Key**: In `script.js`, replace the `API_KEY` value with your restricted key.
-4. **Push to GitHub**: Upload your files to a repository and enable **Pages** in the repository settings.
-
+## 🚀 Hosted by : **HyperCreatorXD** (GitHub Pages)
 ---
 
 ## 📜 License & Credit
