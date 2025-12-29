@@ -1,0 +1,7 @@
+{
+  "name": "Lumina AI",
+  "start_url": "/?fullscreen=true",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
